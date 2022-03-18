@@ -4,7 +4,7 @@ A repo that contains all practice scripts or solution for different programming 
 
 
 
-Environment Setup:
+Environment Setup (packages and virtual environment):
 
 ```
 # Checking versions
@@ -26,5 +26,23 @@ pip3 freeze
 # Will disable the environment
 deactivate 
  
+```
+
+Environment Setup (Github SSH setup and others):
+
+```
+brew install git
+git --version
+git config --global user.name "Samiul Azam"
+git config --global user.email "samiul.azam@ucalgary.ca"
+
+ssh-keygen -t rsa
+# Just press enter for generating the private and public key pair in .ssh folder
+# No passphrase, just press enter
+
+# Display the public key
+cat .ssh/id_rsa.pub
+
+# Register the public key at https://github.com/settings/keys
 ```
 
