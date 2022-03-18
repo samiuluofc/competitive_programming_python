@@ -46,3 +46,11 @@ cat .ssh/id_rsa.pub
 # Register the public key at https://github.com/settings/keys
 ```
 
+Visual Studio Code Market Place Extension
+
+* Python (most popular)
+* Code Spell Checker
+* EditorConfig for VS Code
+* Gitlens
+
+
